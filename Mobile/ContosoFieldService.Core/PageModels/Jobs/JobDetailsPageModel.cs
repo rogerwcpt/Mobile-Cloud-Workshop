@@ -2,6 +2,7 @@
 using ContosoFieldService.Models;
 using FreshMvvm;
 using Humanizer;
+using Microsoft.AppCenter;
 using Microsoft.Azure.Documents.Spatial;
 using Xamarin.Forms;
 
@@ -41,6 +42,8 @@ namespace ContosoFieldService.PageModels
         {
             get
             {
+                throw new Exception("Simulating a crash");
+
                 return new Command(async () =>
                 {
                     await CoreMethods.PushPageModel<WorkingJobPageModel>(CurrentJob, true, true);

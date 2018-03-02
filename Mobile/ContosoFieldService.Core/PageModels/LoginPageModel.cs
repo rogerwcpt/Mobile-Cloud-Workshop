@@ -1,4 +1,5 @@
 ﻿using FreshMvvm;
+using Microsoft.AppCenter.Analytics;
 using Xamarin.Forms;
 
 namespace ContosoFieldService.PageModels
@@ -17,6 +18,7 @@ namespace ContosoFieldService.PageModels
                 return new Command(async () => {
                     Helpers.Settings.UserIsLoggedIn = true;
 
+                    Analytics.TrackEvent("User logged in");
 
                     Helpers.Settings.FullName = FullName;
                     Helpers.Settings.Email = Email;
