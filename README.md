@@ -51,3 +51,8 @@ You can find a walkthrough guide for the project that outlines how you too can b
 - **Richard Erwin** ([Github](https://github.com/rerwinx))
 - **Mohamed Saif** ([Github](https://github.com/mohamedsaif))
 - **Michael Sivers** ([Github](https://github.com/msivers))
+
+
+---
+# Forked Build Status
+[![Build status](https://build.appcenter.ms/v0.1/apps/54361854-07d1-4806-96f5-b116ed87fe93/branches/devops/badge)](https://appcenter.ms)
