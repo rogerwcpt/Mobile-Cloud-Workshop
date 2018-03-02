@@ -5,6 +5,10 @@ using FreshMvvm;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
+
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace ContosoFieldService
 {
@@ -56,7 +60,7 @@ namespace ContosoFieldService
             var environment = DependencyService.Get<IEnvironmentService>();
             if (environment.IsRunningInRealWorld())
             {
-                //Init App Center
+                AppCenter.Start("android=6757eebd-962a-44ed-a272-cc928a1b01aa;", typeof(Analytics), typeof(Crashes));
             }
 
             // Handle when your app starts

@@ -4396,7 +4396,6 @@ namespace ContosoFieldService.Droid
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_message = global::ContosoFieldService.Droid.Resource.String.appcenter_distribute_update_failed_dialog_message;
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_reinstall = global::ContosoFieldService.Droid.Resource.String.appcenter_distribute_update_failed_dialog_reinstall;
 			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_title = global::ContosoFieldService.Droid.Resource.String.appcenter_distribute_update_failed_dialog_title;
-			global::Microsoft.AppCenter.Push.Android.Resource.String.library_name = global::ContosoFieldService.Droid.Resource.String.library_name;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::ContosoFieldService.Droid.Resource.Attribute.actionBarSize;
 		}
 		
